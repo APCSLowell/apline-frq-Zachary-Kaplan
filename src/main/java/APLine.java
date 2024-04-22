@@ -2,7 +2,7 @@ public class APLine
 {
   /* your code here */
   int a,b,c;
-  public APLine(aInt,bInt,cInt)
+  public APLine(int aInt,int bInt,int cInt)
   {
     a = aInt;
     b = bInt;
@@ -12,7 +12,7 @@ public class APLine
   {
     return -a/b;
   }
-  public boolean isOnLine(int x. int y)
+  public boolean isOnLine(int x, int y)
   {
     return (((a*x) + (b*y)) == c);
   }
